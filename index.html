@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="1px" cellspacing="5px" cellpadding ="5px">
+<tr>
+<th>Application Id</th>
+<th> Application Name</th>
+<th> Application Company</th>
+<th>Application Quantity</th>
+<th>Price Per Application</th>
+</tr>
+
+<tr>
+<td>101</td>
+<td>TV</td>
+<td>Samsung</td>
+<td>700</td>
+<td>24999.99</td>
+</tr>
+
+<tr>
+<td>201</td>
+<td>Mobile</td>
+<td>Apple</td>
+<td>1500</td>
+<td>69999.99</td>
+</tr>
+
+<tr>
+<td>301</td>
+<td>TV</td>
+<td>Sony</td>
+<td>1000</td>
+<td>49999.99</td>
+</tr>
+
+<tr>
+<td>401</td>
+<td>Laptop</td>
+<td> Dell</td>
+<td>1450</td>
+<td>44999.99</td>
+</tr>
+
+<tr>
+<td>501</td>
+<td>Laptop</td>
+<td>Samsung</td>
+<td>1480</td>
+<td>34999.99</td>
+</tr>
+
+<tr>
+<td>601</td>
+<td>Gaming_Consol</td>
+<td>X-Box</td>
+<td>1100</td>
+<td>14999.99</td>
+</tr>
+
+<tr>
+<td>701</td>
+<td>headphone</td>
+<td>JBL</td>
+<td>1800</td>
+<td>2499.99</td>
+</tr>
+</table>
+<br> <br>
+<form action="prouctcontroller" method="get">
+<label>Enter Product</label>
+<select name="productname">
+<option> Select Product</option>
+<option> TV </option>
+<option> Mobile </option>
+<option> Laptop </option>
+<option> Gaming Consol</option>
+<option> Headphones </option>
+</select>
+<br> <br>
+
+<label>Enter Quantity</label>
+<input type="text" name="quantity">
+<br> <br>
+
+<label>Appliance Company</label>
+<input type="text" name="company">
+<br> <br>
+
+
+<input type="submit" value="Get Bill">
+</form>
+</body>
+</html>
